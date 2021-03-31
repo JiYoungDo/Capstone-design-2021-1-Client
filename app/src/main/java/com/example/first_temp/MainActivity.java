@@ -7,12 +7,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.first_temp.Image.ImageActivity;
+import com.example.first_temp.Video.VideoStreamingActivity;
+
 public class MainActivity extends AppCompatActivity {
 
     Button video_streaming_btn;
     Button img_10_btn;
-    Button img_50_btn;
-    Button img_100_btn;
     Button photo_upload_btn;
     Button sns_login_btn;
     Button payment_btn;
@@ -34,35 +35,16 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        img_10_btn = findViewById(R.id.main_img_10_btn);
+        img_10_btn = findViewById(R.id.main_img_btn);
         img_10_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, Image10Activity.class);
+                Intent intent = new Intent(MainActivity.this, ImageActivity.class);
                 startActivity(intent);
                 finish();
             }
         });
 
-        img_50_btn = findViewById(R.id.main_img_50_btn);
-        img_50_btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, Image50Activity.class);
-                startActivity(intent);
-                finish();
-            }
-        });
-
-        img_100_btn = findViewById(R.id.main_img_100_btn);
-        img_100_btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, Image100Activity.class);
-                startActivity(intent);
-                finish();
-            }
-        });
 
         photo_upload_btn = findViewById(R.id.main_img_upload_btn);
         photo_upload_btn.setOnClickListener(new View.OnClickListener() {

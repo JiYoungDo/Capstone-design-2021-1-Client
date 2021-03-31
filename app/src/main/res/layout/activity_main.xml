@@ -41,7 +41,7 @@
             android:layout_marginTop="20dp"/>
 
         <Button
-            android:id="@+id/main_img_10_btn"
+            android:id="@+id/main_img_btn"
             android:layout_width="200dp"
             android:layout_height="wrap_content"
             android:text="@string/img_10"
@@ -54,33 +54,6 @@
             app:layout_constraintTop_toBottomOf="@id/main_video_streaming_btn"
             android:layout_marginTop="20dp"/>
 
-        <Button
-            android:id="@+id/main_img_50_btn"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:text="@string/img_50"
-            android:textSize="16sp"
-            android:textColor="@color/white"
-            android:backgroundTint="@color/black"
-            android:padding="15dp"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/main_img_10_btn"
-            android:layout_marginTop="20dp"/>
-
-        <Button
-            android:id="@+id/main_img_100_btn"
-            android:layout_width="200dp"
-            android:layout_height="wrap_content"
-            android:text="@string/img_100"
-            android:textSize="16sp"
-            android:textColor="@color/white"
-            android:backgroundTint="@color/black"
-            android:padding="15dp"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/main_img_50_btn"
-            android:layout_marginTop="20dp"/>
 
         <Button
             android:id="@+id/main_img_upload_btn"
@@ -93,7 +66,7 @@
             android:padding="15dp"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/main_img_100_btn"
+            app:layout_constraintTop_toBottomOf="@id/main_img_btn"
             android:layout_marginTop="20dp"/>
 
         <Button

@@ -13,10 +13,8 @@
         <activity android:name=".PaymentActivity" />
         <activity android:name=".SnsLoginActivity" />
         <activity android:name=".PhotoUploadActivity" />
-        <activity android:name=".Image100Activity" />
-        <activity android:name=".Image50Activity" />
-        <activity android:name=".Image10Activity" />
-        <activity android:name=".VideoStreamingActivity" />
+        <activity android:name=".Image.ImageActivity" />
+        <activity android:name=".Video.VideoStreamingActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
