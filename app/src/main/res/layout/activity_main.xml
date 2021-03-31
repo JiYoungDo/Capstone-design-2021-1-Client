@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/main_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="20dp"
+            android:text="@string/title"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+
+
+
+        <Button
+            android:id="@+id/main_video_streaming_btn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/video_streaming"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/black"
+            android:padding="15dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/main_tv_title"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/main_img_10_btn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/img_10"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/black"
+            android:padding="15dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/main_video_streaming_btn"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/main_img_50_btn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/img_50"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/black"
+            android:padding="15dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/main_img_10_btn"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/main_img_100_btn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/img_100"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/black"
+            android:padding="15dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/main_img_50_btn"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/main_img_upload_btn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/img_upload"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/black"
+            android:padding="15dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/main_img_100_btn"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/main_sns_login_btn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/sns_login"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/black"
+            android:padding="15dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/main_img_upload_btn"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/main_payment_btn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/payment"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/black"
+            android:padding="15dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/main_sns_login_btn"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/main_email_confirm_btn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="@string/email_confirm"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:backgroundTint="@color/black"
+            android:padding="15dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/main_payment_btn"
+            android:layout_marginTop="20dp"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
