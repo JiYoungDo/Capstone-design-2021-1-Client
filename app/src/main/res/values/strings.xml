@@ -3,19 +3,15 @@
 
     <string name="video_streaming">1. 동영상 스트리밍</string>
 
-    <string name="img_10">2. 이미지 10개 받기</string>
+    <string name="img_10">2. 이미지 받기</string>
 
-    <string name="img_50">3. 이미지 50개 받기</string>
+    <string name="img_upload">3. 이미지 업로드</string>
 
-    <string name="img_100">4. 이미지 100개 받기</string>
+    <string name="sns_login">4. 카카오 로그인</string>
 
-    <string name="img_upload">5. 이미지 업로드</string>
+    <string name="payment">5. 결제 시스템</string>
 
-    <string name="sns_login">6. 카카오 로그인</string>
-
-    <string name="payment">7. 결제 시스템</string>
-
-    <string name="email_confirm">8. 이메일 인증</string>
+    <string name="email_confirm">6. 이메일 인증</string>
 
     <string name="title">HTTP1.1과 HTTP 2 프로토콜의 성능 평가</string>
 </resources>
